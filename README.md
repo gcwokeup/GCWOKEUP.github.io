@@ -12,7 +12,7 @@ This is my personal portfolio and blog where I share my journey as a software en
 
 - **Blog**: Technical articles and insights on software development
 - **Experience**: My professional journey and work history
-- **Portfolio**: Featured projects and technical skills
+- **Portfolio**: Featured projects and technical skills with embedded demos
 - **About**: My story, philosophy, and community involvement
 
 ## Tech Stack
@@ -24,11 +24,12 @@ This is my personal portfolio and blog where I share my journey as a software en
 
 ## Features
 
-- ✨ Clean, terminal-inspired design
-- 📱 Responsive navbar with active page highlighting
+- ✨ Clean, terminal-inspired design with Hacker theme
+- 📱 Fully responsive design optimized for mobile
+- 📊 Responsive navbar with active page highlighting
 - 📝 Blog with post listings and excerpts
-- 💼 Comprehensive experience timeline
-- 🚀 Project showcase with impact metrics
+- 💼 Comprehensive experience timeline with 5 speaking engagements
+- 🚀 Project showcase with impact metrics and embedded video demos
 - 🎨 Custom SCSS styling
 - 📖 Easy-to-read typography
 - 🔗 Social links (GitHub, LinkedIn, Instagram)
@@ -84,10 +85,10 @@ The compiled site will be in the `_site` directory.
 ├── assets/
 │   └── css/
 │       └── style.scss    # Custom styles
-├── about.markdown        # About page
+├── about.markdown        # About page with speaking engagements
 ├── blog.markdown         # Blog archive
-├── experience.markdown   # Work experience
-├── portfolio.markdown    # Projects & skills
+├── experience.markdown   # Work experience timeline
+├── portfolio.markdown    # Projects & skills with video demos
 ├── index.markdown        # Landing page
 ├── Gemfile              # Ruby dependencies
 └── README.md            # This file

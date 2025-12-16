@@ -53,12 +53,23 @@ Before my tech career, I:
 - Designed logos, brochures, and business cards as an Administrative Coordinator
 - Worked as a Brand Ambassador engaging consumers in promotional activities
 
+## Speaking & Advocacy
+
+I'm committed to making tech more inclusive and accessible. I've spoken at various venues about diversity, career transitions, Hip Hop culture, and education:
+
+- **University of Virginia** (2022) - Guest speaker on Asian Americans & Popular Culture, discussing life as a bboy (breakdancer), Asian immigrant journey, and path into tech
+- **Northwestern University** (2019) - Asian-American Studies Speaker on Hip Hop's cultural impact
+- **Difference Engine** (2017) - Fireside chat on non-traditional paths into tech
+- **Noble Charter School** (2017) - STEM Expo presentation for high school students  
+- **UIC #IAMFIRST** (2017) - Tech diversity panel on experiences as an immigrant and person of color in tech
+
 ## Philosophy
 
 I believe in:
 - **Each One, Teach One**: Sharing knowledge and lifting others up
+- **Diversity & Inclusion**: Creating spaces where everyone can learn and grow
 - **Clean, maintainable code**: Building for the long term
-- **Inclusive communities**: Creating spaces where everyone can learn and grow
+- **Giving back**: Speaking, mentoring, and supporting the next generation
 - **Continuous learning**: Technology evolves, and so should we
 
 ## Get In Touch
