@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | relative_url }}">
+    {% if site.title %}
+      <title>{{ page.title }} | {{ site.title }}</title>
+    {% else %}
+      <title>{{ page.title }}</title>
+    {% endif %}
+    <meta name="description" content="{{ site.description | default: page.excerpt | default: site.title }}">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="{{ '/' | relative_url }}">
+          <h1>{{ site.title | default: "GCWokeUp" }}</h1>
+        </a>
+        <h2>{{ site.description | default: "GCWokeUp's Tech Blog and Portfolio" }}</h2>
+
+        <nav class="main-nav">
+          <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a>
+          <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a>
+          <a href="{{ '/experience/' | relative_url }}" {% if page.url contains '/experience' %}class="active"{% endif %}>Experience</a>
+          <a href="{{ '/portfolio/' | relative_url }}" {% if page.url contains '/portfolio' %}class="active"{% endif %}>Portfolio</a>
+          <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" class="github-link">
+            <span class="icon"></span>GitHub
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+
+  </body>
+</html>
+

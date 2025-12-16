@@ -1,0 +1,147 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Navigation Bar Styles */
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav a {
+  color: #b5e853;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.main-nav a:hover {
+  color: #fff;
+  border-color: #b5e853;
+  background-color: rgba(181, 232, 83, 0.1);
+}
+
+.main-nav a.active {
+  color: #fff;
+  background-color: rgba(181, 232, 83, 0.2);
+  border-color: #b5e853;
+}
+
+.main-nav a.github-link {
+  margin-left: auto;
+}
+
+/* Responsive navigation */
+@media screen and (max-width: 768px) {
+  .main-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .main-nav a {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .main-nav a.github-link {
+    margin-left: 0;
+  }
+}
+
+/* Custom styles for landing page */
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.post-list li {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #333;
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+.post-meta {
+  color: #7a8288;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+.post-list h3 {
+  margin: 0.5em 0;
+  font-size: 1.3em;
+}
+
+.post-link {
+  color: #b5e853;
+  text-decoration: none;
+}
+
+.post-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.post-list p {
+  margin: 0.5em 0 0 0;
+  color: #c0c0c0;
+  line-height: 1.6;
+}
+
+/* Blog page styles */
+.post-entry {
+  margin-bottom: 3em;
+}
+
+.post-entry h2 {
+  margin-bottom: 0.5em;
+}
+
+.post-excerpt {
+  margin: 1em 0;
+  color: #c0c0c0;
+  line-height: 1.6;
+}
+
+/* Portfolio page styles */
+article {
+  margin-bottom: 2em;
+}
+
+/* Improved link styling */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Section dividers */
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 2em 0;
+}
+
+/* Emoji support */
+.emoji {
+  display: inline;
+  height: 1em;
+  width: 1em;
+  vertical-align: -0.1em;
+}
