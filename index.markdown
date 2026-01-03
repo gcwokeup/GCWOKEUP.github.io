@@ -49,7 +49,7 @@ When I'm not coding, you'll find me exploring new technologies, contributing to 
 ### 🔗 Connect With Me
 
 - **GitHub**: [@{{ site.github_username }}](https://github.com/{{ site.github_username }})
-- **LinkedIn**: [Gino Paul Mendoza Capio](https://www.linkedin.com/in/ginopaulcapio/)
+- **LinkedIn**: [Gino Paul Mendoza Capio](https://www.linkedin.com/in/gcapio/)
 
 ---
 
